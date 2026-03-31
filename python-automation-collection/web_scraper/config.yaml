@@ -1,0 +1,11 @@
+scraper:
+  timeout: 10
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+  default_container_selector: "article.product_pod"
+  default_title_selector: "h3 > a"
+  default_content_selector: "p.price_color"
+  max_pages: 5
+
+logging:
+  level: "INFO"
+  file: "web_scraper.log"

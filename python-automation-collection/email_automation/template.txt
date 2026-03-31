@@ -1,0 +1,6 @@
+Hi {{Name}},
+
+This is a sample email template demonstrating personalization.
+
+Best,
+Your App

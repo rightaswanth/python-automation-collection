@@ -1,0 +1,11 @@
+db:
+  url: "sqlite:///database.sqlite" # Defaulting to SQLite for easy demo
+
+excel:
+  sheet_name: 0  # Read first sheet
+  remove_duplicates: true
+  clean_nulls: true
+
+logging:
+  level: "INFO"
+  file: "excel_to_db.log"

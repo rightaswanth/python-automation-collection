@@ -1,0 +1,11 @@
+cleaning_rules:
+  remove_duplicates: true
+  trim_whitespace: true
+  normalize_phone: true
+  split_full_name: true
+  remove_null_rows: true
+  convert_case: "title" # options: "lower", "upper", "title"
+
+logging:
+  level: "INFO"
+  file: "data_cleaner.log"

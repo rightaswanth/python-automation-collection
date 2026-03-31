@@ -1,0 +1,12 @@
+smtp:
+  host: "smtp.gmail.com"
+  port: 587
+  use_tls: true
+
+email:
+  rate_limit_seconds: 2
+  subject_prefix: "[Update]"
+
+logging:
+  level: "INFO"
+  file: "email_automation.log"
